@@ -1,0 +1,39 @@
+node_modules/
+.env
+data_store.json
+npm-debug.log
+.DS_Store
+.vscode/
+
+# Laravel generated files
+storage/framework/sessions/
+storage/framework/views/
+storage/framework/cache/data/
+storage/logs/
+storage/app/public/
+# database.sqlite TIDAK di-ignore agar tidak hilang saat pull
+# database/database.sqlite
+database/database.sqlite-journal
+
+# Bootstrap cache (generated at build time)
+bootstrap/cache/*.php
+bootstrap/cache/compiled.php
+
+# Test output / temp files
+seed_out.txt
+seed_err.txt
+seed_output.txt
+seed_out_new.txt
+seed_run_test.txt
+seed_w2_test.txt
+routes_err.txt
+routes_out.txt
+check_tables_out.txt
+check_out.txt
+temp_smoke_out.txt
+temp_smoke_result.txt
+t.txt
+*.tmp
+
+# Retired seeders
+database/seeders/FmcgSeeder.php.bak
